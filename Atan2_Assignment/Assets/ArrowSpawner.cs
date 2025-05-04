@@ -11,7 +11,6 @@ public class ArrowSpawner : MonoBehaviour
     [SerializeField] private float SpawnInterval;
 
     private ObjectPool<GameObject> _arrowPool;
-    private float _timer;
 
     private void Awake()
     {
